@@ -1,4 +1,9 @@
-.nav {
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .nav {
     display: flex;
     align-items: center;
     width: 100vw;
