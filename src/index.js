@@ -1,15 +1,15 @@
-//Import route and our components
-import { Route, Routes } from "react-router-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {
+  BrowserRouter as Router
+} from "react-router-dom"
 
+import App from './App';
+import './index.css';
 
-export default function App () {
-  // We will use the Route component to specify each route
-  return (
-    <div className="App">
-       <Nav />
-    <Routes>
-   
-    </Routes>
-    </div>
-  );
-}
+ReactDOM.render(
+  <Router>
+    <App />
+  </Router>,
+  document.getElementById('root')
+);
