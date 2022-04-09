@@ -1,5 +1,4 @@
 
-
 import React from 'react';
 import stockData from './stock-data';
 import Header from './Header';
